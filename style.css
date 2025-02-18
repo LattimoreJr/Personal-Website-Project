@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    padding: 5px;
+    color: red;
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
