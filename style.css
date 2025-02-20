@@ -71,3 +71,28 @@ section {
   .about-section img {
     height: 200px;
   }
+
+  .project {
+    width: 60%;
+    background: black;
+    color: whitesmoke;
+    box-shadow: 2px 3px 6px 2px whitesmoke;
+    margin: 2em auto;
+    padding: 10px;
+  }
+
+  .project:nth-of-type(2n) img {
+    width: 240px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    float: left;
+    box-shadow: 0 3px 6px -2px #ccc;
+  }
+
+  .project:nth-of-type(2n + 1) img {
+    width: 240px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+    box-shadow: 0 3px 6px -2px #ccc;
+  }
